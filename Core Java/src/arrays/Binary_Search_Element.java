@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class Binary_Search_Element {
   public static void main(String[] args) {
-    int a[]= {10,20,30,40,50,10};//elements should be sorted order
+    int a[]= {10,60,30,40,50,10};//elements should be sorted order
     
     //approach 1
     
-    int key=10;
+    int key=70;
    int l=0;
    int h=a.length-1;
    boolean flag=false;

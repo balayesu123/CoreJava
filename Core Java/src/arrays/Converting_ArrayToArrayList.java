@@ -12,7 +12,7 @@ public class Converting_ArrayToArrayList {
         System.out.println(al);
         
         // lambda Expression
-        al.forEach(x -> System.out.println(x));
+        al.forEach(x -> System.out.print(x+" "));
 	}
 
 }

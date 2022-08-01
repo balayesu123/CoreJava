@@ -8,7 +8,7 @@ public class Print_endWith_3 {
 			int rem=i%10;
 			if(rem==3)
 			{
-				System.out.println(i);
+				System.out.print(i+" ");
 			}
 		}
 	}

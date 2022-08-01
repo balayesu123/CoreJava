@@ -10,11 +10,11 @@ public class Add_in_Map {
 	hm.put(103,"sunil");
 	hm.put(104,"kumar");
 
-	System.out.println(hm);
-	System.out.println(hm.get(101));
-	System.out.println(hm.keySet());
-	System.out.println(hm.values());
-	System.out.println(hm.entrySet());
+	System.out.println(hm);          // {101=bala, 102=yesu, 103=sunil, 104=kumar}
+	System.out.println(hm.get(101));  // bala
+	System.out.println(hm.keySet());  // [101, 102, 103, 104]
+	System.out.println(hm.values());  // [bala, yesu, sunil, kumar]
+	System.out.println(hm.entrySet());  // [101=bala, 102=yesu, 103=sunil, 104=kumar]
 
 	
 }

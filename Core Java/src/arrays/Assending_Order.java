@@ -29,9 +29,9 @@ public class Assending_Order {
 				//*********************************************
 
 		//		int a[]= {4,2,5,3,1};
-		//		
+				
 		//		Arrays.sort(a);
-		//		System.out.println(Arrays.toString(a));
+	    //		System.out.println(Arrays.toString(a));
 		
 		//		System.out.println(a);  //  it will print the address of the Array object
 

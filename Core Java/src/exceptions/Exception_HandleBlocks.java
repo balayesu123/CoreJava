@@ -24,7 +24,7 @@ public class Exception_HandleBlocks {
          System.out.println(a[3]);
          
        }
-       catch(ArithmeticException a)
+       catch( ArrayIndexOutOfBoundsException a) // 
        {
     	   System.out.println("AIOOBE Handled");
        }

@@ -3,23 +3,29 @@ package strings;
 public class OccurenseOfWord {
 
 	public static void main(String[] args) {
-		String s= "I Love my India I Love My Country";
+		String s= "I Love my India I Love My Country I";
 		String str[]=s.split(" ");
-            int count=0;
+            
 		for (int i = 0; i < str.length; i++) 
 		{
-			count++;
+			int count=1;
 			for (int j = i+1; j < str.length; j++)
 			{
 				if(str[i].equals(str[j]))
 				{
-					System.out.println(str[j]);
+					count++;
+					str[j]="0";
+					
 				}
 
 			}
 
+			if(str[i]!="0" && count>1)
+			{
+				System.out.println(str[i]);
+			}
 		}
-		System.out.println("Number of words : "+count);
+		
 	}
 
 }

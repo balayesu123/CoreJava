@@ -4,7 +4,7 @@ public class Count_Characters {
 
 	public static void main(String[] args) {
 
-		String s= "aadccffb";
+		String s= "aadaccffba";
 
 		char ch[]=s.toCharArray();
 

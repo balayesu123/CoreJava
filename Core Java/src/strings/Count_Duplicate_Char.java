@@ -1,6 +1,6 @@
 package strings;
 
-public class Count_Repitative_Char {
+public class Count_Duplicate_Char {
 
 	public static void main(String[] args) {
 
@@ -19,12 +19,9 @@ public class Count_Repitative_Char {
 					ch[j]='0';
 				}	
 			}
-			if(ch[i]!='0')
-			{
-				if(count!=1)
-				{
-					System.out.println(ch[i] + " = "+ count);
-				}
+			if(ch[i]!='0' && count!=1) // if(ch[i]!='0' && count==1)  for uniue count
+			{	
+			  System.out.println(ch[i] + " = "+ count);	
 			}
 		}
 	}

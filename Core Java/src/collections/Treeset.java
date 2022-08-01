@@ -12,6 +12,7 @@ public class Treeset {
        ts.add("yesu");
        ts.add("sunil");
        ts.add("shashank");
+    //   ts.add(8); class cast exception
        
        // TreeSet dosen't allow the Heterogeneous data  throw 'class cast exception'
        // TreeSet follows sorted order means Alphabetical order

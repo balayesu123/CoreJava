@@ -25,7 +25,7 @@ public class Printf {
          Yesu
 		 */
 		System.out.printf("Hello%n");
-		System.out.printf("%s%n","Balu"); // balu
+		System.out.printf("%s%n","Balu"); // Balu
 		System.out.printf("%c%n",'B');
 		int a=10;
 		int b = 55;

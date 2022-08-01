@@ -1,8 +1,8 @@
 package strings;
 
-public class Repetetive_Charactors {
+public class Duplicate_Charactors {
   public static void main(String[] args) {
-	String s="devellopparrellpppeeerrrf";
+	String s="Happiest mindspi";
 	int l=s.length();
 	char[] ch=s.toCharArray();
 	for(int i=0;i<l;i++)
@@ -16,12 +16,9 @@ public class Repetetive_Charactors {
 				ch[j]='0';
 			}
 		}
-		if(ch[i]!='0')
+		if(ch[i]!='0' && count>1)
 		{
-			if(count!=1)
-			{
-				System.out.println(ch[i]);
-			}
+			System.out.println(ch[i]);
 		}
 		
 	}

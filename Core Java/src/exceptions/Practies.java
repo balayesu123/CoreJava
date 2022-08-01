@@ -6,11 +6,12 @@ public class Practies {
 		
        try
        { 
+    	   System.out.println("throw Arithmetic Exception");
     	   int c= 10/0 ;
        }
-       catch(ArithmeticException e1)
+       finally
        {
-    	   System.out.println("AE Handled");
+    	   System.out.println("execution is continue with finally block");
        }
        
 	}

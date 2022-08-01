@@ -2,7 +2,7 @@ package collections;
 
 import java.util.HashMap;
 
-public class Treemap {
+public class Hashmap {
 
 	public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ package arrays;
 public class Max_Min_Element {
 
 	public static void main(String[] args) {
-		int a[] = {200,800,140,500};
+		int a[] = {5,1,8,7};
 
 		int max =a[0];
 		int min =a[0];
@@ -14,7 +14,7 @@ public class Max_Min_Element {
 				max=a[i];
 				
 			}
-			if(a[i] < min )
+			else if(a[i] < min )
 			{
 				min=a[i];
 				

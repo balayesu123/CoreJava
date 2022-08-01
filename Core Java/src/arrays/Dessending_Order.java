@@ -35,12 +35,12 @@ public class Dessending_Order {
 		}  */
 
 		//*********************************************
-/*		Integer c[]= {2,3,4,1,5,6}; 
+	/*	Integer c[]= {2,3,4,1,5,6}; 
 
 		Arrays.sort(c , Collections.reverseOrder());
 		System.out.println(Arrays.toString(c));
 
-          */
+		*/
 	}
 
 }

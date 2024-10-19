@@ -1,30 +1,41 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class Practies {
 
 	public static void main(String[] args) {
 		
-int arr[] = {2,1,4,1,3,4,2,1,5};
+		int value[] = {44,66,99,77,33,22,55};
+		   
+	       
+	       Arrays.sort(value);
+	       
+	       for(int j=value.length-2 ; j<value.length-1 ; j++)
+	            {
+	                System.out.println(value[j]);
+	            }
+	       
+	       
+	        for(int i=0; i<value.length ; i++)
+	        {
+	            for(int j=i+1 ; j<value.length ; j++)
+	            {
+	                if(value[i]>value[j])
+	                {
+	                    int temp = value[i];
+	                    value[i] = value[j];
+	                    value[j] = temp;
+	                    
+	                }
+	            }
+	            
+	           
+	        }
+	       
+	        System.out.println(value[value.length-2]);
 		
-		int len = arr.length;
-		
-		for(int i=0 ; i<len ; i++)
-		{
-			int count =1;
-			for(int j=i+1 ; j<len ; j++)
-			{
-				if(arr[i]==arr[j] )
-				{
-					count++;
-                  arr[j]='0';
-				}
-			}
-			if(arr[i]!='0' && count > 1)
-			{
-				System.out.print(arr[i]+" ");
-			}
-		}
-		
+	     		
 	}
 
 }

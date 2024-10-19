@@ -6,7 +6,10 @@ public class Print_Vowels_Consonents {
 
 
 		String s = "AbcdefGHIjklmnopqRStuvwxyZ";
-		//String s = "Kanerika is Located in Hyderabad";
+		
+//		String str = "Kanerika is Located in Hyderabad";
+//		String s = str.replaceAll(" ", "");
+		
 		char[] ch = s.toCharArray();
 		String vowel="",consonents="";
 		int vowel_count=0, consonents_count=0;

@@ -20,9 +20,9 @@ public class Sorting_the_string_decendingOrder{
 			}
 			   
 		   }
-		  // System.out.print(arr[i]);
+		   System.out.print(arr[i]);
 	   }
-	   System.out.println(Arrays.toString(arr));
+	  // System.out.println(Arrays.toString(arr));
 	   
 }
 }

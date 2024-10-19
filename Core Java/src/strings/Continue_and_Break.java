@@ -11,9 +11,9 @@ public class Continue_and_Break {
 		{
 			if(s.charAt(i)=='a')
 			{
-			  System.out.println("bala");
+			  System.out.println("balayesu");
 			  continue;  // when condition is true,skip the current iteration of remaining steps after continue key word
-			}            // and controle will back to the loop
+			}            // and control will back to the loop
 			             // continue or break should use in last in the block
 			             // we con't use continue & break in one block
 			count++;
@@ -30,7 +30,7 @@ public class Continue_and_Break {
 		{
 			if(s.charAt(i)=='a')
 			{
-			  System.out.println("bala");
+			  System.out.println("balayesu");
 			  break;    // when condition is true completely stop the current iteration
 			}
 			breakcount++;

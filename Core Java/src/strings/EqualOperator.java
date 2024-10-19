@@ -24,5 +24,6 @@ public class EqualOperator {
 		System.out.println(c==a);       // false
 		System.out.println(a.equals(c));   // true
 		System.out.println(a==d);          // true
+		System.out.println(b.equals(c));  // true
 	}
 }

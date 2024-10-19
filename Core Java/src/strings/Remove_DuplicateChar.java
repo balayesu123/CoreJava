@@ -3,7 +3,7 @@ package strings;
 public class Remove_DuplicateChar {
 	public static void main(String[] args) {
 
-		String str = "abcdaba";	
+		String str = "MADAMMADAM";	
 		String rmvDup = "";
 
 		for(int i=0 ; i<str.length() ; i++)

@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class AllPhabeticalOrder {
+public class AlPhabeticalOrder {
    public static void main(String[] args) {
 	  // String s[]= {"Balayesu","Sunil","padmaja","urmila","shushank"};
 	   String s[]= {"S","p","U","r","B"};

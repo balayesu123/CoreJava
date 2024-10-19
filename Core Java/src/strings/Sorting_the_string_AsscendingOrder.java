@@ -21,9 +21,10 @@ public class Sorting_the_string_AsscendingOrder {
 				}
 
 			}
-			//System.out.print(ch);
+			System.out.print(ch[i]);
 		}
-		System.out.println(Arrays.toString(ch));
+		//System.out.println(Arrays.toString(ch));
+		//System.out.print(ch);
 	}
 }
 

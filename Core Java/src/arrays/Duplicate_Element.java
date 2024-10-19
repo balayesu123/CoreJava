@@ -3,8 +3,8 @@ package arrays;
 public class Duplicate_Element {
 
 	public static void main(String[] args) {
-
-		int a[] = {10,20,30,40,10};
+ /*
+		int a[] = {10,20,30,20,40,10,20};
 		boolean flag = false;
 		for(int i = 0 ; i< a.length ; i++)
 		{
@@ -23,9 +23,11 @@ public class Duplicate_Element {
 			System.out.println("Duplicate elements are not present");
 		}
 		
+		*/
 		// ************** 2nd Approach *******************
 
-      /*   int arr[] = {2,1,4,1,3,4,2,1,5};
+        // int arr[] = {2,1,4,1,3,4,2,1,5};
+		int arr[] = {10,20,30,20,40,10,20};
 		
 		int len = arr.length;
 		
@@ -44,7 +46,7 @@ public class Duplicate_Element {
 			{
 				System.out.print(arr[i]+" ");
 			}
-	    }  */               
+	    }                
 	}
 
 }

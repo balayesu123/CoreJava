@@ -16,7 +16,7 @@ public class Duplicate_Charactors {
 				ch[j]='0';
 			}
 		}
-		if(ch[i]!='0' && count>1)
+		if(ch[i]!='0' && count>1) //  
 		{
 			System.out.println(ch[i]);
 		}
